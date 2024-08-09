@@ -30,7 +30,7 @@ export const Experience = () => {
                     resolution={256}
                     color='#000000'
                 />
-                <Avatar animation={animation} />
+                <Avatar animation={animation} position-y={0.09} />
                 {animation === "Typing" && (
                     <mesh scale={[0.8, 0.5, 0.8]} position-y={0.25}>
                         <boxGeometry />
